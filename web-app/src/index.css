@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --border: 220 14% 96%;
+  --input: 220 14% 96%;
+  --ring: 215 20% 65%;
+  --background: 0 0% 100%;
+  --foreground: 222 47% 11%;
+  --primary: 240 100% 50%;
+  --primary-foreground: 0 0% 100%;
+  --radius: 0.5rem;
+  --background: 0 0% 100%;
+  --foreground: 224 71.4% 4.1%;
+  --muted: 220 14.3% 95.9%;
+  --muted-foreground: 220 8.9% 46.1%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 224 71.4% 4.1%;
+  --card: 0 0% 100%;
+  --card-foreground: 224 71.4% 4.1%;
+  --border: 220 13% 91%;
+  --input: 220 13% 91%;
+  --primary: 221.2 83.2% 53.3%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 172 66% 50.4%;
+  --secondary-foreground: 210 40% 98%;
+  --accent: 346 77.8% 49.8%;
+  --accent-foreground: 210 40% 98%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 210 40% 98%;
+  --ring: 224 71.4% 4.1%;
+  --radius: 0.5rem;
+
+  /* Custom MindTrack colors */
+  --status-good: 151.8 81% 39.4%;
+  --status-warning: 37.7 92.1% 50.2%;
+  --status-poor: 0 84.2% 60.2%;
+  
+  --neutral-light: 220 60% 99%;
+  --neutral-medium: 220 33% 96%;
+  --neutral-dark: 217 19% 47%;
+  --neutral-darker: 222 47% 11%;
+  
+  --chart-1: 221.2 83.2% 53.3%;
+  --chart-2: 172 66% 50.4%;
+  --chart-3: 346 77.8% 49.8%;
+  --chart-4: 37.7 92.1% 50.2%;
+  --chart-5: 262 83.3% 57.8%;
+}
+
+.dark {
+  --background: 224 71.4% 4.1%;
+  --foreground: 210 20% 98%;
+  --muted: 215 27.9% 16.9%;
+  --muted-foreground: 217.9 10.6% 64.9%;
+  --popover: 224 71.4% 4.1%;
+  --popover-foreground: 210 20% 98%;
+  --card: 224 71.4% 4.1%;
+  --card-foreground: 210 20% 98%;
+  --border: 215 27.9% 16.9%;
+  --input: 215 27.9% 16.9%;
+  --primary: 221.2 83.2% 53.3%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 172 66% 50.4%;
+  --secondary-foreground: 210 40% 98%;
+  --accent: 346 77.8% 49.8%;
+  --accent-foreground: 210 40% 98%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 210 40% 98%;
+  --ring: 216 12.2% 83.9%;
+  
+  /* Custom MindTrack colors */
+  --status-good: 142.1 70.6% 45.3%;
+  --status-warning: 48 96.5% 53.3%;
+  --status-poor: 0 72.2% 50.6%;
+  
+  --neutral-light: 222 47% 11%;
+  --neutral-medium: 217 19% 27%;
+  --neutral-dark: 215 20% 65.1%;
+  --neutral-darker: 210 20% 98%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-[hsl(var(--neutral-light))] text-[hsl(var(--neutral-darker))];
+  }
+}

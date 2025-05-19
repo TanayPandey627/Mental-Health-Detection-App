@@ -1,0 +1,4 @@
+date,on_bike,on_foot,running,still,user_id,conversation_count,total_conversation_duration,average_conversation_duration,max_conversation_duration,min_conversation_duration,total_dark_time,avg_dark_time,max_dark_time,screen_time_total,screen_sessions,max_screen_time,avg_screen_time,hour,rate,hour_3day_avg,rate_3day_avg,hour_mapped,rate_rounded,stress_level,stress_3day_avg,app_usage,total_distance_km,unique_locations
+2023-05-09,0.03,0.08,0.04,0.85,u00,21,22971,1093.8,5829,61,556.53,139.13,329.72,590.7,5,272.8,118.14,8,2,7.83,1.5,6.5,2,1,1.67,715.67,65.4,25
+2023-05-10,0.02,0.09,0.03,0.86,u00,23,23000,1000,5000,50,500,120,300,600,5,280,120,7,2,7.5,1.5,6,2,2,1.67,720,70,26
+2023-05-11,0.04,0.1,0.02,0.84,u00,25,24000,960,5100,52,520,125,310,580,4,290,145,8,1,7.67,1.67,6.5,1,1,1.33,700,60,24
